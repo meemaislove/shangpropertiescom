@@ -1847,3 +1847,21 @@ section {
     transition: 0.4s ease !important;
 }
 /* smooth transition - end */
+/* section background watermark position */
+.wm-wrap.aiwl-bg-wrap::after,
+.wm-wrap.live-tour-watermark::after {
+    right: 90px;
+
+    @media (max-width: 1199px) {
+        right: 40px;
+    }
+
+    @media (max-width: 767px) {
+        right: 30px;
+    }
+}
+
+.wm-wrap.live-tour-watermark::after {
+    bottom: -30px;
+}
+/* section background watermark position - end */

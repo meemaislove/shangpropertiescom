@@ -5054,6 +5054,17 @@ section.curated-space-image {
                             min-height: 400px;
                             max-height: 600px;
                         }
+
+                        /* watermark sits below the tour, outside the iframe controls */
+                        &.wm-wrap {
+                            display: flex;
+                            flex-direction: column;
+                            padding-bottom: 36px;
+
+                            &::after {
+                                bottom: 0;
+                            }
+                        }
                     }
                 }
             }

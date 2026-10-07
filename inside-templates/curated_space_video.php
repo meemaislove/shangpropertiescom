@@ -140,6 +140,21 @@ if ($image_id) {
 }
 
 $has_thumbnail = !empty($image_url);
+
+/*
+ * Live tour watermark.
+ * The tour is an external iframe with no alt text, so the label is picked
+ * from the tour's own name (see shang_get_virtual_tour_watermark_class() in functions.php).
+ */
+$livetour_watermark_class = '';
+
+if (!empty($livetour_url) && function_exists('shang_get_virtual_tour_watermark_class')) {
+    $detected_class = shang_get_virtual_tour_watermark_class($livetour_url);
+
+    if (!empty($detected_class)) {
+        $livetour_watermark_class = 'wm-wrap live-tour-watermark ' . $detected_class;
+    }
+}
 ?>
 
 <section
@@ -168,7 +183,7 @@ $has_thumbnail = !empty($image_url);
 
             <div class="image-content video-content live-tour-content">
 
-                <div class="video-wrapper live-tour-wrapper">
+                <div class="video-wrapper live-tour-wrapper<?php echo !empty($livetour_watermark_class) ? ' ' . esc_attr($livetour_watermark_class) : ''; ?>">
 
                     <iframe
                         class="video-within live-tour-iframe"

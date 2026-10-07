@@ -961,3 +961,80 @@ function search_blog_ajax_config() {
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
 });
+
+// Virtual tour watermark
+
+/**
+ * Get the name of an external virtual tour (iStaging, Matterport, ...)
+ * from its page <title>. Cached so the tour site is only hit once a week.
+ */
+function shang_get_virtual_tour_name($tour_url)
+{
+    if (empty($tour_url)) {
+        return '';
+    }
+
+    $cache_key = 'shang_vt_name_' . md5($tour_url);
+    $cached    = get_transient($cache_key);
+
+    if ($cached !== false) {
+        return $cached;
+    }
+
+    $name     = '';
+    $response = wp_remote_get($tour_url, [
+        'timeout'    => 5,
+        'user-agent' => 'Mozilla/5.0 (compatible; ShangProperties/1.0)',
+    ]);
+
+    if (!is_wp_error($response) && wp_remote_retrieve_response_code($response) === 200) {
+        if (preg_match('/<title[^>]*>(.*?)<\/title>/is', wp_remote_retrieve_body($response), $matches)) {
+            $name = trim(html_entity_decode(wp_strip_all_tags($matches[1]), ENT_QUOTES, 'UTF-8'));
+        }
+    }
+
+    // Cache failures for a short time only, so a temporary outage retries soon.
+    set_transient($cache_key, $name, $name !== '' ? WEEK_IN_SECONDS : HOUR_IN_SECONDS);
+
+    return $name;
+}
+
+/**
+ * Get the watermark class for a virtual tour.
+ * Matches the project by the tour's own name first, then falls back to the page title
+ * (some tours are only named "One-Bedroom A", etc.).
+ */
+function shang_get_virtual_tour_watermark_class($tour_url)
+{
+    // project keyword => watermark class
+    $projects = [
+        'haraya'    => 'artist-watermark',
+        'summit'    => 'actual-watermark',
+        'aurelia'   => 'actual-watermark',
+        'bauhinia'  => 'actual-watermark',
+        'wack-wack' => 'actual-watermark',
+        'srww'      => 'actual-watermark',
+        'laya'      => 'actual-watermark',
+    ];
+
+    $sources = [
+        shang_get_virtual_tour_name($tour_url),
+        get_the_title(),
+        get_post_field('post_name'),
+    ];
+
+    foreach ($sources as $source) {
+        // Normalize to "word-word-word" so "Wack Wack" and "wack_wack" both match.
+        $haystack = preg_replace('/[^a-z0-9]+/', '-', strtolower((string) $source));
+
+        foreach ($projects as $project => $watermark_class) {
+            if (preg_match('/(^|-)' . preg_quote($project, '/') . '(-|$)/', $haystack)) {
+                return $watermark_class;
+            }
+        }
+    }
+
+    return '';
+}
+
+// Virtual tour watermark - end
