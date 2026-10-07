@@ -1,0 +1,547 @@
+.single,
+.search {
+    section.single-post-banner {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 512px;
+        /*max-height: 512px;*/
+        max-height: 633px;
+        /*max-height: fit-content;*/
+        z-index: 3;
+
+        @media (max-width: 575px) {
+            max-height: max-content;
+        }
+
+        &::before {
+            content: "";
+
+            position: absolute;
+
+            inset: 0;
+
+            z-index: -1;
+
+            pointer-events: none;
+
+            background: linear-gradient(
+                90deg,
+                rgba(15, 15, 15, 0.85) 0%,
+
+                rgba(15, 15, 15, 0.6) 42%,
+
+                rgba(15, 15, 15, 0.5) 58%,
+
+                rgba(15, 15, 15, 0) 88%
+            );
+
+            /*@media (max-width: 767px) {
+                background: linear-gradient(
+                    0deg,
+                    rgba(15, 15, 15, 0.85) 0%,
+
+                    rgba(15, 15, 15, 0.6) 20%,
+
+                    rgba(15, 15, 15, 0.5) 38%,
+
+                    rgba(15, 15, 15, 0) 52%
+                );
+            }*/
+        }
+
+        .single-post-banner-contents {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+            color: #fff;
+
+            h1 {
+                text-transform: uppercase !important;
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+
+            span {
+                font-family: "GothamRegular", sans-serif;
+                font-size: 14px;
+            }
+        }
+    }
+
+    section.single-post-content {
+        /*padding-top: 40px;*/
+        padding-top: 121px;
+        padding-bottom: 40px;
+
+        &.blog-version {
+            blockquote {
+                li {
+                    font-family: "GothamLight", sans-serif;
+                    margin-top: 18px;
+                    margin-bottom: 18px;
+                    font-style: italic;
+                    color: #575757;
+                }
+            }
+        }
+
+        .single-post-content-contents {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: 100%;
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            div {
+                @media (max-width: 1425px) {
+                    overflow-x: scroll;
+                }
+            }
+
+            h2 {
+                font-family: "GanticRegular", sans-serif;
+                font-size: 75px;
+            }
+
+            ol,ul {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                list-style: auto;
+
+                li {
+                    font-family: "GothamLight", sans-serif;
+                    color: #575757;
+                }
+            }
+
+            blockquote {
+                border-left: 3px solid var(--colorYellow);
+                padding-left: 10px;
+
+                h2 {
+                    padding-left: 32px;
+                }
+            }
+
+            img {
+                width: 100%;
+            }
+
+            a {
+                color: var(--colorYellow);
+                text-decoration: underline;
+            }
+        }
+    }
+
+    section.socmed-sharers {
+        padding-top: 0;
+        padding-bottom: 40px;
+        display: flex;
+        width: 100%;
+
+        .socmed-sharers-content {
+            padding-left: 30px;
+            padding-right: 30px;
+            display: flex;
+            width: 100%;
+            max-width: 1300px;
+            margin: auto;
+            gap: 15px;
+
+            p {
+                font-family: "GothamRegular", sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+
+                @media (max-width: 767px) {
+                    font-size: 18px;
+                }
+            }
+
+            .socmed-icons {
+                display: flex;
+                gap: 24px;
+                align-items: center;
+            }
+        }
+    }
+
+    section.related-posts {
+        padding-top: 0;
+
+        .related-posts-content {
+            padding-left: 30px;
+            padding-right: 30px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1300px;
+            margin: auto;
+
+            .heading-text {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 60px;
+
+                h2 {
+                    margin-bottom: 0;
+                    font-family: "GanticRegular", sans-serif;
+                }
+            }
+
+            .related-posts {
+                display: flex;
+                gap: 30px;
+
+                @media (max-width: 991px) {
+                    flex-direction: column;
+                }
+
+                .related-post {
+                    /*display: flex;*/
+                    display: block;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+                    max-height: 100%;
+
+                    .post-details {
+                        a {
+                            img {
+                                object-fit: cover;
+                                max-height: 205px;
+                                /*margin-bottom: 20px;*/
+                                width: 100%;
+                                object-position: center;
+
+                                @media (max-width: 991px) {
+                                    max-height: 300px;
+                                }
+                            }
+                        }
+
+                        .duration-details {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+
+                            span {
+                                font-size: 14px;
+                                font-family: "Futura Bk BT", sans-serif;
+                                text-transform: uppercase;
+                            }
+
+                            img {
+                                height: 100%;
+                                max-height: fit-content;
+                            }
+                        }
+                    }
+
+                    .item-cta {
+                        display: flex;
+
+                        flex-direction: column;
+
+                        position: relative;
+
+                        margin-top: auto;
+
+                        span {
+                            font-family: "Futura Bk BT", sans-serif;
+
+                            font-size: 14px;
+                        }
+
+                        .arrow-cta {
+                            margin-top: 16px;
+
+                            a {
+                                display: flex;
+
+                                align-items: center;
+
+                                gap: 10px;
+
+                                svg {
+                                    transition: 0.4s ease;
+                                }
+
+                                &.arrow-link {
+                                    font-family: "Futura Bk BT Bold", sans-serif;
+
+                                    font-size: 12px;
+
+                                    color: var(--colorRed);
+
+                                    letter-spacing: 0.18em;
+
+                                    font-weight: 700;
+
+                                    text-transform: uppercase;
+
+                                    transition: 0.4s ease;
+
+                                    br {
+                                        display: none;
+                                    }
+
+                                    .arrow-icons {
+                                        display: flex;
+
+                                        flex-direction: column;
+
+                                        justify-content: center;
+
+                                        transition: 0.4s ease;
+
+                                        img {
+                                            transition: 0.4s ease;
+
+                                            transform: translateX(0);
+
+                                            opacity: 1;
+
+                                            &.yellow-arrow {
+                                                position: absolute;
+
+                                                opacity: 0;
+
+                                                visibility: hidden;
+                                            }
+
+                                            &.red-arrow {
+                                                opacity: 1;
+
+                                                visibility: visible;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover {
+                                        color: var(--colorYellow);
+
+                                        .arrow-icons {
+                                            margin-left: 10px;
+
+                                            img {
+                                                &.yellow-arrow {
+                                                    opacity: 1;
+
+                                                    visibility: visible;
+                                                }
+
+                                                &.red-arrow {
+                                                    opacity: 0;
+
+                                                    visibility: hidden;
+
+                                                    transform: translateX(0);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Label Fixes */
+.single-blog {
+    section.related-posts {
+        h3 {
+            font-family: "GothamRegular", sans-serif;
+            text-transform: capitalize;
+            font-size: 18px;
+        }
+
+        .wm-wrap {
+            &::after {
+                /*bottom: 25px;*/
+            }
+        }
+    }
+}
+
+/* Label Fixes - end */
+
+
+/* News Updates Inside */
+
+
+/* News Updates Inside - end */
+
+/* Residentials Fixes */
+
+.single-residentials {
+    section.about-split-content {
+        .about-split-content-contents {
+            .heading-content {
+
+            }
+
+            .custom-content {
+                img {
+                    width: 100%;
+                    max-width: 100%;
+                    /*height: 100%;*/
+                    /*max-height: 100%;*/
+                    height: 100vh;
+                    max-height: 518px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+/* Residentials Fixes - end */
+
+
+/* News Updates New */
+.single-news-updates {
+    section.single-post-content {
+        .single-post-content-contents {
+            gap: 40px;
+
+            section {
+                padding: 0px !important;
+
+                .article-text__content {
+                    p {
+                        margin-bottom: 24px;
+
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .article-text__content--drop-cap {
+                    p {
+                        &:first-of-type {
+                            strong {
+                                font-size: 52px;
+                            }
+                        }
+                    }
+                }
+
+                .article-text__content--quote {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    gap: 8px;
+
+                    p {
+                        font-size: 32px;
+                    }
+                }
+
+                &.curated-space-image {
+                    .curated-space-image__caption {
+                        text-align: center;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    section.related-posts {
+        h2 {
+            font-family: "GanticLight", sans-serif;
+            font-size: 75px;
+        }
+
+        h3 {
+            font-family: "GothamRegular", sans-serif;
+            font-size: 18px;
+            text-transform: capitalize;
+            margin-top: 8px;
+            line-height: 21.6px;
+        }
+    }
+
+
+    section.homepage-carousel {
+        background: none;
+        .homepage-carousel-contents {
+            height: 100%;
+            max-height: 400px;
+
+            .video-carousel {
+                &::before,
+                &::after {
+                    display: none !important;
+                }
+
+
+                span {
+                    &.aiwl-img-wrap {
+                        height: 100%;
+                        max-height: 400px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+/* News Updates New - end */
+
+/* Laya by Shang */
+.postid-369 {
+    section.about-split-content {
+        &#residentialProjectHighlightsLayaByShang {
+            .custom-content {
+                img {
+                    @media (max-width: 400px) {
+                        object-position: 35% 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Laya by Shang fixex */
+
+/* things-a-property-manager-does */
+.postid-6988 {
+    section {
+        &.single-post-banner {
+            background-position: 100% 25% !important;
+        }
+    }
+}
+
+
+/* things-a-property-manager-does - end */

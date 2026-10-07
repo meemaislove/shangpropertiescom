@@ -1,0 +1,4 @@
+1. kung yung line hieght naka % or normal ppwedi na natin retain yon kasi sumusunod lng namn yon sa font size pero kung naka px lng sya pwedi na gamitan ng clamp yung fontsize at yung line height
+2. at yung sa text transfor nung mga header kung naka uppercase naman lahat ng header sa deisng pwedi na isama sa global pero kung may iilan na hindi pwedi namn wag na at pwedi namn gamitin mismong class ni bootsrap text-uppercase.
+3. sa pag lagay stylesheet-manager namn at script manager sa pag condition nung scrip at style kung saan lng lalabas mas maganda dalawang condition bali yung pweding combination nung tatlo like page title or page id, at page slug or page id.
+4. yung sa pag trim ng title at description depene yon sa design and character count tapos pwedi nyo pa i dag dag yung sa css para lagi pantay pantay.
