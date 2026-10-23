@@ -1,15 +1,15 @@
 <?php
 // if ( ! function_exists( 'template_theme_setup' ) ) :
 // function template_theme_setup() {
-// 	add_theme_support( 'post-thumbnails' );
-// 	add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
-// 	register_nav_menus( array(
-// 	    'primary'   => __( 'Primary Menu', 'template Header' )
-// 	) );
-// 	add_theme_support( 'woocommerce' );
-// 	add_theme_support( 'wc-product-gallery-zoom' );
-// 	add_theme_support( 'wc-product-gallery-lightbox' );
-// 	add_theme_support( 'wc-product-gallery-slider' );
+//  add_theme_support( 'post-thumbnails' );
+//  add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
+//  register_nav_menus( array(
+//      'primary'   => __( 'Primary Menu', 'template Header' )
+//  ) );
+//  add_theme_support( 'woocommerce' );
+//  add_theme_support( 'wc-product-gallery-zoom' );
+//  add_theme_support( 'wc-product-gallery-lightbox' );
+//  add_theme_support( 'wc-product-gallery-slider' );
 // }
 // endif;
 // add_action( 'after_setup_theme', 'template_theme_setup' );
@@ -805,7 +805,7 @@ function search_blog_render_card() {
             <div class="duration-details">
                 <span><?php echo esc_html($formatted_date); ?></span>
 
-                <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/detail-dot.png" alt="">
+                <img src="https://shangproperties.com/wp-content/uploads/2026/06/detail-dot.png" alt="">
 
                 <span><?php echo esc_html($read_time); ?> min. read</span>
             </div>
@@ -823,8 +823,8 @@ function search_blog_render_card() {
                 <a class="arrow-link" href="<?php the_permalink(); ?>" target="_blank" rel="noopener">
                     Read More
                     <div class="arrow-icons" aria-hidden="true">
-                        <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/arrow-icon.png" class="red-arrow" alt="">
-                        <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/arrow-icon-yellow.png" class="yellow-arrow" alt="">
+                        <img src="https://shangproperties.com/wp-content/uploads/2026/05/arrow-icon.png" class="red-arrow" alt="">
+                        <img src="https://shangproperties.com/wp-content/uploads/2026/05/arrow-icon-yellow.png" class="yellow-arrow" alt="">
                     </div>
                 </a>
             </div>
@@ -962,6 +962,7 @@ add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
 });
 
+
 // Virtual tour watermark
 
 /**
@@ -1038,3 +1039,74 @@ function shang_get_virtual_tour_watermark_class($tour_url)
 }
 
 // Virtual tour watermark - end
+
+
+/**
+ * Output Google Analytics, Search Console verification, and Google Tag Manager.
+ */
+
+// Update these if any value is wrong.
+define( 'SITE_GA_ID',  'G-0B66ZEVPXQ' );
+define( 'SITE_GSC_VERIFICATION', 'fGhhn4wId3RBGBppSfwWS8IeQ9HJXP7FXdbVi0vNb5o' );
+define( 'SITE_GTM_ID', 'GTM-5J8L69V' );
+
+/**
+ * <head> scripts. Priority 1 puts them as high in <head> as possible.
+ */
+function site_head_tracking_codes() {
+    // Optional: skip tracking for logged-in admins.
+    // if ( current_user_can( 'manage_options' ) ) return;
+    ?>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo esc_attr( SITE_GA_ID ); ?>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '<?php echo esc_js( SITE_GA_ID ); ?>');
+</script>
+
+<!-- Google Search Console -->
+<meta name="google-site-verification" content="<?php echo esc_attr( SITE_GSC_VERIFICATION ); ?>" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','<?php echo esc_js( SITE_GTM_ID ); ?>');</script>
+<!-- End Google Tag Manager -->
+    <?php
+}
+add_action( 'wp_head', 'site_head_tracking_codes', 1 );
+
+/**
+ * GTM <noscript> fallback, immediately after the opening <body> tag.
+ */
+function site_body_tracking_codes() {
+    ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?php echo esc_attr( SITE_GTM_ID ); ?>"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <?php
+}
+add_action( 'wp_body_open', 'site_body_tracking_codes', 1 );
+
+
+/* Years Counter */
+add_action('wp_enqueue_scripts', function () {
+  if (is_front_page() || is_page(84)) {
+    $rel  = '/inc/js/years-counter.js';
+    $path = get_stylesheet_directory() . $rel;
+
+    wp_enqueue_script(
+      'shang-years-counter',
+      get_stylesheet_directory_uri() . $rel,
+      [],
+      file_exists($path) ? filemtime($path) : '1.0',
+      true
+    );
+  }
+});

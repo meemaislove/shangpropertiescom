@@ -16,7 +16,7 @@ $blog_search_query = new WP_Query(array(
 <section
     id="searchBanner"
     class="about-banner search-banner"
-    style="background-image: url('https://spi.whitedragontech.com/wp-content/uploads/2026/06/search-banner-bg.png');"
+    style="background-image: url('https://shangproperties.com/wp-content/uploads/2026/06/search-banner-bg.png');"
 >
     <div class="about-banner-contents">
         <div class="banner-heading">

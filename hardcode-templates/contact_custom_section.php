@@ -7,7 +7,7 @@
         <div class="contact-details-list">
 
             <div class="contact-details-item">
-                <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/address-icon.png" alt="Address" />
+                <img src="https://shangproperties.com/wp-content/uploads/2026/05/address-icon.png" alt="Address" />
                 <div class="item-details">
                     <span class="detail-title">Address</span>
                     <div class="detail-content">
@@ -21,7 +21,7 @@
             </div>
 
             <div class="contact-details-item">
-                <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/mail-icon.png" alt="Email" />
+                <img src="https://shangproperties.com/wp-content/uploads/2026/06/mail-icon.png" alt="Email" />
                 <div class="item-details">
                     <span class="detail-title">Email</span>
                     <div class="detail-content">
@@ -31,7 +31,7 @@
             </div>
 
             <div class="contact-details-item">
-                <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/contact-details-icon.png" alt="Contact Details" />
+                <img src="https://shangproperties.com/wp-content/uploads/2026/05/contact-details-icon.png" alt="Contact Details" />
                 <div class="item-details">
                     <span class="detail-title">Phone</span>
                     <div class="detail-content">
@@ -41,14 +41,14 @@
             </div>
 
             <div class="contact-details-item">
-                <img src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/design-team-icon.png" alt="Connect with Us" />
+                <img src="https://shangproperties.com/wp-content/uploads/2026/05/design-team-icon.png" alt="Connect with Us" />
                 <div class="item-details">
                     <span class="detail-title">Connect with Us</span>
                     <div class="detail-content connect-links">
-                        <a href="https://facebook.com/ShangProperties/" class="connect-link" target="_blank"><img src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/fb-icon-brown.png" alt="Facebook" /></a>
-                        <a href="https://instagram.com/shangproperties/" class="connect-link" target="_blank"><img src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/insta-icon-brown.png" alt="Instagram" /></a>
-                        <a href="https://youtube.com/@shangpropertiesofficial/" class="connect-link" target="_blank"><img src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/yt-icon-brown.png" alt="Youtube" /></a>
-                        <a href="http://linkedin.com/company/shang-properties/" class="connect-link" target="_blank"><img src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/linkedin-icon-brown.png" alt="LinkedIn" /></a>
+                        <a href="https://facebook.com/ShangProperties/" class="connect-link" target="_blank"><img src="https://shangproperties.com/wp-content/uploads/2026/06/fb-icon-brown.png" alt="Facebook" /></a>
+                        <a href="https://instagram.com/shangproperties/" class="connect-link" target="_blank"><img src="https://shangproperties.com/wp-content/uploads/2026/06/insta-icon-brown.png" alt="Instagram" /></a>
+                        <a href="https://youtube.com/@shangpropertiesofficial/" class="connect-link" target="_blank"><img src="https://shangproperties.com/wp-content/uploads/2026/06/yt-icon-brown.png" alt="Youtube" /></a>
+                        <a href="http://linkedin.com/company/shang-properties/" class="connect-link" target="_blank"><img src="https://shangproperties.com/wp-content/uploads/2026/06/linkedin-icon-brown.png" alt="LinkedIn" /></a>
                     </div>
                 </div>
             </div>

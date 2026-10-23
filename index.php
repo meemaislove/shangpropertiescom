@@ -20,7 +20,7 @@ $contents = [
 
         'description' => 'Our design philosophy focuses on an uncompromising vision. From the first architectural sketches to the careful selection of interior furnishings to the culmination of our overarching vision, a consistent thread flows through everything, resulting in environments that are both contextual and adaptable.',
 
-        'img_url' => 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/details-by-design.png',
+        'img_url' => 'http://shangproperties.com/wp-content/uploads/2026/04/details-by-design.png',
 
         'alt_text' => 'Details by Design'
 
@@ -53,7 +53,7 @@ $contents = [
 
         'description' => 'Carefully crafted to provide only the best, our international expertise and affiliations create a distinct Shang experience for all who visit. As such, we deliver an unprecedented, exclusive opportunity to enjoy a lifestyle no other development can offer.',
 
-        'img_url' => 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/uniquely-personal.png',
+        'img_url' => 'http://shangproperties.com/wp-content/uploads/2026/04/uniquely-personal.png',
 
         'alt_text' => 'Uniquely Personal'
 
@@ -149,12 +149,12 @@ foreach ($contents as $item) {
         ladomContent.appendChild(closeSpan);
 
         var ladomLink = document.createElement("a");
-        ladomLink.setAttribute("href", "https://www.shangproperties.com/new-developments/");
+        ladomLink.setAttribute("href", "https://shangproperties.com/new-developments/");
         ladomLink.setAttribute("target", "_blank");
         ladomContent.appendChild(ladomLink);
 
         var ladomImage = document.createElement("img");
-        ladomImage.setAttribute("src", "https://spi.whitedragontech.com/wp-content/uploads/2026/08/shang-amenities-new.gif");
+        ladomImage.setAttribute("src", "https://shangproperties.com/wp-content/uploads/2026/08/shang-amenities-new.gif");
         Object.assign(ladomImage.style, {
             maxWidth: "100%",
             width: "100%"

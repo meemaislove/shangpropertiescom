@@ -76,28 +76,28 @@ if (empty($formatted_date)) {
         <div class="socmed-icons">
             <a href="#" class="socmed-icon share-facebook" target="_blank" rel="noopener">
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-fb.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-fb.png"
                     alt="Share on Facebook"
                 >
             </a>
 
             <a href="#" class="socmed-icon share-x" target="_blank" rel="noopener">
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-x.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-x.png"
                     alt="Share on X"
                 >
             </a>
 
             <a href="#" class="socmed-icon share-linkedin" target="_blank" rel="noopener">
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-linkedin.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-linkedin.png"
                     alt="Share on LinkedIn"
                 >
             </a>
 
             <a href="#" class="socmed-icon copy-link">
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-copy.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-copy.png"
                     alt="Copy page link"
                 >
             </a>
@@ -217,7 +217,7 @@ if (empty($formatted_date)) {
                                 </span>
 
                                 <img
-                                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/detail-dot.png"
+                                    src="https://shangproperties.com/wp-content/uploads/2026/06/detail-dot.png"
                                     alt=""
                                 >
 
@@ -255,13 +255,13 @@ if (empty($formatted_date)) {
 
                                     <div class="arrow-icons" aria-hidden="true">
                                         <img
-                                            src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/arrow-icon.png"
+                                            src="https://shangproperties.com/wp-content/uploads/2026/05/arrow-icon.png"
                                             class="red-arrow"
                                             alt=""
                                         >
 
                                         <img
-                                            src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/arrow-icon-yellow.png"
+                                            src="https://shangproperties.com/wp-content/uploads/2026/05/arrow-icon-yellow.png"
                                             class="yellow-arrow"
                                             alt=""
                                         >

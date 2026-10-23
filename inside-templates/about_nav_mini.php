@@ -90,7 +90,7 @@ $mini_nav_links = [
 
         'link_title' => 'Our Brand',
 
-        'link_url'   => 'http://spi.whitedragontech.com/about-us/our-brand/',
+        'link_url'   => 'http://shangproperties.com/about-us/our-brand/',
 
         'link_id'    => 'ourBrandMini'
 
@@ -100,7 +100,7 @@ $mini_nav_links = [
 
         'link_title' => 'Corporate Governance',
 
-        'link_url'   => 'http://spi.whitedragontech.com/about-us/corporate-governance/',
+        'link_url'   => 'http://shangproperties.com/about-us/corporate-governance/',
 
         'link_id'    => 'corporateGovernanceMini'
 
@@ -110,7 +110,7 @@ $mini_nav_links = [
 
         'link_title' => 'Disclosures',
 
-        'link_url'   => 'http://spi.whitedragontech.com/about-us/disclosures/',
+        'link_url'   => 'http://shangproperties.com/about-us/disclosures/',
 
         'link_id'    => 'disclosuresMini'
 
@@ -120,7 +120,7 @@ $mini_nav_links = [
 
         'link_title' => 'Investors',
 
-        'link_url'   => 'http://spi.whitedragontech.com/about-us/investors/',
+        'link_url'   => 'http://shangproperties.com/about-us/investors/',
 
         'link_id'    => 'investorsMini'
 
@@ -130,7 +130,7 @@ $mini_nav_links = [
 
         'link_title' => 'Careers',
 
-        'link_url'   => 'http://spi.whitedragontech.com/about-us/careers/',
+        'link_url'   => 'http://shangproperties.com/about-us/careers/',
 
         'link_id'    => 'careersMini'
 
@@ -140,7 +140,7 @@ $mini_nav_links = [
 
         'link_title' => 'Kerry Foundation Phils, Inc.',
 
-        'link_url'   => 'http://spi.whitedragontech.com/about-us/kerry-foundation-phils-inc/',
+        'link_url'   => 'http://shangproperties.com/about-us/kerry-foundation-phils-inc/',
 
         'link_id'    => 'kerryFoundationMini'
 

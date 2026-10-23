@@ -754,23 +754,23 @@ section.about-split-content {
 
                     div {
                         &#slideService {
-                            background-image: url("http://spi.whitedragontech.com/wp-content/uploads/2026/05/service-dark.png");
+                            background-image: url("http://shangproperties.com/wp-content/uploads/2026/05/service-dark.png");
                         }
 
                         &#slideHonest {
-                            background-image: url("http://spi.whitedragontech.com/wp-content/uploads/2026/05/honesty-dark.png");
+                            background-image: url("http://shangproperties.com/wp-content/uploads/2026/05/honesty-dark.png");
                         }
 
                         &#slideAsian {
-                            background-image: url("http://spi.whitedragontech.com/wp-content/uploads/2026/05/asian-dark.png");
+                            background-image: url("http://shangproperties.com/wp-content/uploads/2026/05/asian-dark.png");
                         }
 
                         &#slideNobility {
-                            background-image: url("http://spi.whitedragontech.com/wp-content/uploads/2026/05/nobility-dark.png");
+                            background-image: url("http://shangproperties.com/wp-content/uploads/2026/05/nobility-dark.png");
                         }
 
                         &#slideGlobal {
-                            background-image: url("http://spi.whitedragontech.com/wp-content/uploads/2026/05/global-dark.png");
+                            background-image: url("http://shangproperties.com/wp-content/uploads/2026/05/global-dark.png");
                         }
                     }
                 }
@@ -1549,7 +1549,7 @@ section.homepage-years {
         background: var(--colorFadedBrown);
 
         .homepage-years-background {
-            background: url(http://spi.whitedragontech.com/wp-content/uploads/2026/05/about-years-bg.png)
+            background: url(http://shangproperties.com/wp-content/uploads/2026/05/about-years-bg.png)
                 0% 0% / cover no-repeat;
 
             z-index: 0;
@@ -1788,7 +1788,7 @@ section.about-docs {
                                 }
 
                                 span {
-                                    font-size: 18px;
+                                    font-size: 14px;
 
                                     /*font-family: "Futura Bk BT", sans-serif;*/
 
@@ -2069,10 +2069,10 @@ section.about-docs {
                             height: 100%;
 
                             p {
-                            	margin-bottom: 30px;
+                                margin-bottom: 30px;
 
                                 &:last-of-type {
-                                	margin-bottom: 0;
+                                    margin-bottom: 0;
                                 }
                             }
 
@@ -2081,7 +2081,7 @@ section.about-docs {
                                 font-size: 52px;
                                 margin-bottom: 0;
                                 line-height: 33.6px;
-								margin-bottom: 10px;
+                                margin-bottom: 10px;
                                 text-wrap: pretty;
                             }
 
@@ -3758,7 +3758,7 @@ section.about-split-content {
 
                                             /* display: inline-block; */
 
-											display: block;
+                                            display: block;
 
                                             line-height: 18.36px;
 
@@ -4804,6 +4804,7 @@ section.about-split-content {
                                                 position: relative;
 
                                                  top: -3px;
+                                                                                 
                                             }
                                         }
                                     }
@@ -4882,6 +4883,7 @@ section.curated-space-text {
                     font-family: "GothamRegular", sans-serif;
                     font-size: 32px;
                     /*font-weight: 700;*/
+                    line-height: 38.4px;
 
                     @media (max-width: 1199px) {
                         font-size: 25px;
@@ -5039,6 +5041,7 @@ section.curated-space-image {
         &.live-tour-block {
             padding-left: 0;
             padding-right: 0;
+            z-index: 4 !important;
 
             .curated-space-video-contents {
                 max-width: 100%;
@@ -5054,7 +5057,7 @@ section.curated-space-image {
                             min-height: 400px;
                             max-height: 600px;
                         }
-
+                        
                         /* watermark sits below the tour, outside the iframe controls */
                         &.wm-wrap {
                             display: flex;
@@ -6825,4 +6828,119 @@ section.homepage-newsletter {
         }
     }
 }
+
+.page-id-84 {
+    section.homepage-years {
+        &#ourBrandYears {
+            &.wm-wrap::after {
+                bottom: 160px;
+            }
+        }
+    }
+}
+
+.page-id-84 {
+    .acronym-slider {
+        .acronym-item.wm-wrap::after {
+            right: 5px;
+        }
+    }
+}
+
+.postid-373 {
+    #residentialCarouselSalcedoPlace {
+        .carousel-cell img.carousel-thumbnail {
+            object-position: 100% 10%;
+        }
+    }
+}
+
+.page-id-53 {
+    section.residentials-grid {
+        .image-container img {
+            aspect-ratio: 409 / 273 !important;
+        }
+    }
+}
+
+.postid-383 {
+    #curatedPopUpBauhinia,
+	#curatedPopUpSummit,
+	#curatedPopUpLaya,
+	#curatedPopUpWackWack,
+	#curatedPopUpHaraya {
+        .video-thumbnail .wm-wrap::after {
+            right: 90px;
+            bottom: -50px;
+            
+            @media (max-width: 767px) {
+                right: 30px;
+            }
+        }
+        
+        .aiwl-img-wrap {
+            overflow: visible;
+        }
+    }
+}
+
+.homepage-years.wm-wrap.actual-watermark.wm-top-right::after {
+  top: 20px;
+  right: 100px;
+  height: fit-content;
+  
+  @media (max-width: 1199px) {
+  	right: 75px;
+  }
+  
+  @media (max-width: 575px) {
+  	right: 40px;
+  }
+}
+
+.postid-383 {
+  @supports (-moz-appearance: none) {
+    h1 {
+      line-height: 60px;
+    }
+  }
+}
+
+.page-id-84 {
+    & section.about-split-content {
+        &#ourBrandMissionVision {
+            & .about-split-content-contents {
+                & .heading-content {
+                    max-width: fit-content;
+                }
+            }
+        }
+    }
+    
+   section.about-docs {
+    & .about-docs-contents {
+        & .docs-grid {
+            & .accordion-item {
+                & .item-title {
+                    h2 {
+                        @media (max-width: 575px) {
+                            font-size: 16px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+
+@supports (-webkit-touch-callout: none) {
+  .page-id-764 section.homepage-contact.contact-main .contact-form-contents .form-container .form-main form label span input[type="checkbox"]::after {
+    content: none !important;
+    display: none !important;
+  }
+}
+
 /* other fixes - end */

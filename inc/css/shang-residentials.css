@@ -418,6 +418,10 @@ section.residentials-grid {
                             max-width: 100%;
 
                             object-fit: cover;
+                            
+                            /* aspect-ratio: 409 / 273; */
+                            
+                            aspect-ratio: unset;
                         }
                     }
 

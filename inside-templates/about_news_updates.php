@@ -16,7 +16,7 @@
 
             <div class="heading-cta">
 
-                <a href="https://spi.whitedragontech.com/news-updates/" class="standard-btn custom-red red-text">View All News & Updates</a>
+                <a href="https://shangproperties.com/news-updates/" class="standard-btn custom-red red-text">View All News & Updates</a>
 
             </div>
 

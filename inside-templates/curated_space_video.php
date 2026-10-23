@@ -141,11 +141,6 @@ if ($image_id) {
 
 $has_thumbnail = !empty($image_url);
 
-/*
- * Live tour watermark.
- * The tour is an external iframe with no alt text, so the label is picked
- * from the tour's own name (see shang_get_virtual_tour_watermark_class() in functions.php).
- */
 $livetour_watermark_class = '';
 
 if (!empty($livetour_url) && function_exists('shang_get_virtual_tour_watermark_class')) {

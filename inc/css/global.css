@@ -1056,10 +1056,13 @@ nav {
         @media (min-width: 1200px) {
             display: none;
         }
+        
+        &.active {
+            height: 100vh;               /* fallback */
+            height: 100dvh;              /* tracks Safari's toolbar */
+            max-height: 100dvh;
+        }
 
-        height: 100vh;               /* fallback */
-        height: 100dvh;              /* tracks Safari's toolbar */
-        max-height: 100dvh;
 
         .submenu-grid {
             min-height: 0;
@@ -1141,9 +1144,6 @@ nav {
 
         opacity: 1;
     }
-
-    /* hover menus: the full-height wrapper is transparent, so only the grid should catch the mouse
-       (otherwise the whole page counts as :hover and the menu never closes) */
     &.about-us,
     &.business,
     &.development,
@@ -1184,6 +1184,9 @@ nav {
             gap: 15px;
 
             width: 100%;
+            
+            flex: 1;
+            min-width: 0;
 
             a {
                 display: flex;
@@ -1230,7 +1233,7 @@ nav {
 
                     align-items: center;
 
-                    text-wrap: nowrap;
+                    /*text-wrap: nowrap;*/
                 }
 
                 p {
@@ -1865,3 +1868,12 @@ section {
     bottom: -30px;
 }
 /* section background watermark position - end */
+
+
+/* moz styles */
+@supports (-moz-appearance: none) {
+  .nav-submenu#subMobileMenu .submenu-grid .submenu-item {
+    max-height: 42px;
+  }
+}
+/* moz styles - end */

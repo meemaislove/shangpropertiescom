@@ -385,7 +385,7 @@ jQuery(document).ready(function ($) {
 
       title: "Shang Residences at Wack Wack",
 
-      slug: "https://spi.whitedragontech.com/residentials/shang-residences-at-wack-wack/",
+      slug: "https://shangproperties.com/residentials/shang-residences-at-wack-wack/",
 
       excerpts:
         "At Shang Residences at Wack Wack, we bring the resort to you with beautifully designed spaces dedicated to your health and well-being.",
@@ -398,7 +398,7 @@ jQuery(document).ready(function ($) {
 
       title: "One Shangri-La Place",
 
-      slug: "https://spi.whitedragontech.com/residentials/one-shangri-la-place/",
+      slug: "https://shangproperties.com/residentials/one-shangri-la-place/",
 
       excerpts:
         "Upgrade the way you live at One Shangri-La Place with a 64-storey twin tower condominium, offering you premium amenities and access to Shangri-La Plaza mall that serve as the benchmark for luxury residential developments in the Philippines.",
@@ -411,7 +411,7 @@ jQuery(document).ready(function ($) {
 
       title: "Shangri-La Plaza",
 
-      slug: "https://spi.whitedragontech.com/malls/shangri-la-plaza/",
+      slug: "https://shangproperties.com/malls/shangri-la-plaza/",
 
       excerpts:
         "Shangri-La Plaza is, undisputedly, the country’s most established upscale shopping and lifestyle destination. It offers its customers a complete and carefully selected mix of superior goods and services in well-planned merchandise zones.",
@@ -424,7 +424,7 @@ jQuery(document).ready(function ($) {
 
       title: "Shang Central",
 
-      slug: "https://spi.whitedragontech.com/residentials/shang-central/",
+      slug: "https://shangproperties.com/residentials/shang-central/",
 
       excerpts:
         "At Shang Central, we’ve brought together everything you love about Shangri-La to create a beautiful integrated living experience for you in the heart of the city.",
@@ -437,7 +437,7 @@ jQuery(document).ready(function ($) {
 
       title: "The St. Francis Shangri-La Place",
 
-      slug: "https://spi.whitedragontech.com/residentials/the-st-francis-shang-la-place/",
+      slug: "https://shangproperties.com/residentials/the-st-francis-shang-la-place/",
 
       excerpts:
         "Discover the allure of St. Francis Shangri-La Place, the twin-tower residential condominium skyscrapers in the city of Mandaluyong, and one of the tallest residential buildings in the country.",
@@ -450,7 +450,7 @@ jQuery(document).ready(function ($) {
 
       title: "The Rise Makati",
 
-      slug: "https://spi.whitedragontech.com/residentials/the-rise-makati/",
+      slug: "https://shangproperties.com/residentials/the-rise-makati/",
 
       excerpts:
         "At 59 storeys high, The Rise will offer innovative lifestyle choices in a dynamic neighborhood teeming with galleries, delicatessens and bistros, indie music venues and unique retail destinations.",
@@ -463,7 +463,7 @@ jQuery(document).ready(function ($) {
 
       title: "Shang Salcedo Place",
 
-      slug: "https://spi.whitedragontech.com/residentials/shang-salcedo-place/",
+      slug: "https://shangproperties.com/residentials/shang-salcedo-place/",
 
       excerpts:
         "An unexpected blend of classic sophistication and modern vision, Shang Salcedo, a 67-storey luxury development, features 749 units ranging from one, two, three-bedrooms, and penthouse units that will elevate the standards of luxury living in Salcedo Village.",
@@ -476,7 +476,7 @@ jQuery(document).ready(function ($) {
 
       title: "Assembly Grounds",
 
-      slug: "https://spi.whitedragontech.com/malls/assembly-grounds/",
+      slug: "https://shangproperties.com/malls/assembly-grounds/",
 
       excerpts:
         "Assembly Grounds at The Rise is the perfect place to meet up with family and friends for chill and catch up sessions at any time of the day.",
@@ -489,7 +489,7 @@ jQuery(document).ready(function ($) {
 
       title: "The Enterprise Center",
 
-      slug: "https://spi.whitedragontech.com/offices/the-enterprise-center/",
+      slug: "https://shangproperties.com/offices/the-enterprise-center/",
 
       excerpts:
         "The Enterprise Center offers office space designed for companies and entrepreneurs of any size or stage. It is home to the top names in Philippine business both multinational and local companies.",
@@ -502,7 +502,7 @@ jQuery(document).ready(function ($) {
 
       title: "The Shang Grand Tower",
 
-      slug: "https://spi.whitedragontech.com/residentials/the-shang-grand-tower/",
+      slug: "https://shangproperties.com/residentials/the-shang-grand-tower/",
 
       excerpts:
         "This 46-storey gem never fails to amaze onlookers with its traditional art deco-design built for your family’s discriminating taste.",
@@ -515,7 +515,7 @@ jQuery(document).ready(function ($) {
 
       title: "Horizon Homes",
 
-      slug: "https://spi.whitedragontech.com/residentials/horizon-homes/",
+      slug: "https://shangproperties.com/residentials/horizon-homes/",
 
       excerpts:
         "Welcome to Horizon Homes, a rare collection of 98 exquisite, luxury dwellings by Shangri-La located at the pinnacle of the new Shangri-La at the Fort complex in Bonifacio Global City.",
@@ -528,7 +528,7 @@ jQuery(document).ready(function ($) {
 
       title: "Aurelia Residences",
 
-      slug: "https://spi.whitedragontech.com/residentials/aurelia-residences/",
+      slug: "https://shangproperties.com/residentials/aurelia-residences/",
 
       excerpts:
         "A limited collection of 285 bespoke residences in a location with cosmopolitan skyline views and lush greens of Manila Golf Club, Manila Polo Club, & Forbes Park.",
@@ -541,7 +541,7 @@ jQuery(document).ready(function ($) {
 
       title: "Shang Summit",
 
-      slug: "https://spi.whitedragontech.com/residentials/shang-summit/",
+      slug: "https://shangproperties.com/residentials/shang-summit/",
 
       excerpts:
         "Shang Summit is reaching new, record-setting heights with its dual iconic towers. It offers breathtaking panoramic city views, redefining luxury living in Quezon City.",
@@ -554,7 +554,7 @@ jQuery(document).ready(function ($) {
 
       title: "Shang Bauhinia Residences",
 
-      slug: "https://spi.whitedragontech.com/residentials/shang-bauhinia-residences/",
+      slug: "https://shangproperties.com/residentials/shang-bauhinia-residences/",
 
       excerpts:
         "Shang Bauhinia Residences ushers in a new era of luxury living, setting an unparalleled standard of sophistication and exclusivity in Cebu.",
@@ -1058,13 +1058,13 @@ document.querySelectorAll(".sublink-submenu").forEach((link) => {
 
     const targetSubmenu = document.getElementById(targetId);
 
-    // 👉 If NO matching submenu → allow default link behavior
+    // 👉 If NO matching submenu  allow default link behavior
 
     if (!targetSubmenu) {
       return; // do nothing, browser follows href
     }
 
-    // 👉 If submenu exists → prevent navigation and do toggle
+    //  If submenu exists → prevent navigation and do toggle
 
     e.preventDefault();
 
@@ -1134,7 +1134,7 @@ document.querySelectorAll(".back-button").forEach((button) => {
 
 //   }
 
-//   // 🔹 Email blur validation
+//   //  Email blur validation
 
 // if (emailInput) {
 
@@ -3538,7 +3538,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // Shang Placeholder
 document.addEventListener('DOMContentLoaded', function () {
     const placeholderImage =
-        'https://spi.whitedragontech.com/wp-content/uploads/2026/07/post-featured-placeholder.png';
+        'https://shangproperties.com/wp-content/uploads/2026/07/post-featured-placeholder.png';
 
     function getPostLink(gridItem) {
         /*
@@ -3594,7 +3594,7 @@ document.addEventListener('DOMContentLoaded', function () {
          * .image-container
          * └── a
          *     └── span.wm-wrap.no-watermark
-         *         └── img
+         *         └─ img
          */
         const imageLink = document.createElement('a');
         imageLink.href = permalink;
@@ -3673,7 +3673,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // Placeholder 2 - Journals
 (function () {
     const placeholderImage =
-        'https://spi.whitedragontech.com/wp-content/uploads/2026/07/post-featured-placeholder.png';
+        'https://shangproperties.com/wp-content/uploads/2026/07/post-featured-placeholder.png';
 
     function addRelatedPostPlaceholder(postDetails) {
         /*
@@ -3722,7 +3722,7 @@ document.addEventListener('DOMContentLoaded', function () {
          * │       └── img
          * ├── .duration-details
          * ├── h3
-         * └── p
+         * ── p
          */
         const imageLink = document.createElement('a');
         imageLink.href = permalink;
@@ -3929,12 +3929,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const paragraphSelector = 'p';
 
     // Sections where the script should NOT run
-    const excludedSelector = '#investorsInvestorRelationsSub';
+    const excludedSelector = '#investorsInvestorRelationsSub, #ourBrandsDocs';
 
 
     const capitalizedSegment = String.raw`
         [\p{Lu}]
-        [\p{L}\p{M}\p{N}'’]*
+        [\p{L}\p{M}\p{N}']*
         (?:[-‐-‒–—][\p{Lu}\p{L}\p{M}\p{N}'’]+)*
         (?:
             \s*&\s*
@@ -4469,7 +4469,7 @@ document.addEventListener('DOMContentLoaded', function () {
                  * Client–Focused
                  */
                 const isJoinedWord =
-                    /[-‐-‒–—/&]/u.test(part);
+                    /[-‐-‒–/&]/u.test(part);
 
                 if (
                     !isWhitespace &&
@@ -5136,3 +5136,49 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+
+// 37 Years - homepage watermark
+(function () {
+  const section = document.querySelector('.homepage-years.actual-watermark');
+  if (!section) return;
+
+  const card = section.querySelector('.years-container');
+  if (!card) return;
+
+  const CLASS = 'wm-top-right';
+  const GAP   = 12; // how close the card can get before the watermark jumps
+
+  function check() {
+    // measure the watermark in its normal position
+    section.classList.remove(CLASS);
+
+    const cs = getComputedStyle(section, '::after');
+    const s  = section.getBoundingClientRect();
+    const c  = card.getBoundingClientRect();
+
+    const wmW      = parseFloat(cs.width)  || 69;
+    const wmH      = parseFloat(cs.height) || 24;
+    const wmRight  = parseFloat(cs.right)  || 0;
+    const wmBottom = parseFloat(cs.bottom) || 0;
+
+    // watermark box in viewport coordinates
+    const wmLeftX = s.right - wmRight - wmW;
+    const wmTopY  = s.bottom - wmBottom - wmH;
+    const wmBotY  = s.bottom - wmBottom;
+
+    const overlapsVertically = c.bottom > wmTopY && c.top < wmBotY;
+    const tooClose = c.right > wmLeftX - GAP;
+
+    if (overlapsVertically && tooClose) section.classList.add(CLASS);
+  }
+
+  check();
+  window.addEventListener('resize', check);
+  window.addEventListener('load', check);
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(check).observe(section);
+    new ResizeObserver(check).observe(card);
+  }
+})();

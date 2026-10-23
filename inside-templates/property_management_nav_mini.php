@@ -76,7 +76,7 @@ $mini_nav_links = [
 
         'link_title' => 'About Us',
 
-        'link_url'   => 'https://spi.whitedragontech.com/management-office/shang-property-management-services-inc/',
+        'link_url'   => 'https://shangproperties.com/management-office/shang-property-management-services-inc/',
 
         'link_id'    => 'propertyManagementMini'
 
@@ -86,7 +86,7 @@ $mini_nav_links = [
 
         'link_title' => 'Property Portfolio',
 
-        'link_url'   => 'https://spi.whitedragontech.com/management-office/shang-property-management-services-inc/property-portfolio/',
+        'link_url'   => 'https://shangproperties.com/management-office/shang-property-management-services-inc/property-portfolio/',
 
         'link_id'    => 'propertyPortfolioMini'
 

@@ -16,14 +16,14 @@ if (!function_exists('spi_get_image_alt_by_url')) {
     }
 }
 
-$bauhinia_web_url    = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/shang-bauhinia-residences.png';
-$bauhinia_mobile_url = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/featured-bauhinia-cropped.png';
+$bauhinia_web_url    = 'http://shangproperties.com/wp-content/uploads/2026/10/Shang-Bauhinia.png';
+$bauhinia_mobile_url = 'http://shangproperties.com/wp-content/uploads/2026/04/featured-bauhinia-cropped.png';
 
-$summit_web_url    = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/shang-summit.png';
-$summit_mobile_url = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/featured-summit-cropped.png';
+$summit_web_url    = 'http://shangproperties.com/wp-content/uploads/2026/10/Shang-Summit.png';
+$summit_mobile_url = 'http://shangproperties.com/wp-content/uploads/2026/04/featured-summit-cropped.png';
 
-$laya_web_url    = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/laya-shang-properties.png';
-$laya_mobile_url = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/featured-laya-cropped.png';
+$laya_web_url    = 'http://shangproperties.com/wp-content/uploads/2026/10/Laya.png';
+$laya_mobile_url = 'http://shangproperties.com/wp-content/uploads/2026/04/featured-laya-cropped.png';
 ?>
 
 <section class="homepage-featured-projects">
@@ -38,13 +38,13 @@ $laya_mobile_url = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/fe
 
             <p>Take a look at some of our properties in greater detail.</p>
 
-            <a href="https://spi.whitedragontech.com/businesses/residential/" class="standard-btn custom-red red-text">Explore Projects</a>
+            <a href="https://shangproperties.com/businesses/residential/" class="standard-btn custom-red red-text">Explore Projects</a>
 
         </div>
 
         <div class="featured-projects">
 
-            <a href="https://spi.whitedragontech.com/residentials/shang-bauhinia-residences/" class="project-card" id="shangBauhiniaCard" target="_blank">
+            <a href="https://shangproperties.com/residentials/shang-bauhinia-residences/" class="project-card" id="shangBauhiniaCard" target="_blank">
 
                 <img
                     src="<?php echo esc_url($bauhinia_web_url); ?>"
@@ -68,7 +68,7 @@ $laya_mobile_url = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/fe
 
             </a>
 
-            <a href="https://spi.whitedragontech.com/residentials/shang-summit/ " class="project-card" id="shangSummitCard" target="_blank">
+            <a href="https://shangproperties.com/residentials/shang-summit/ " class="project-card" id="shangSummitCard" target="_blank">
 
                 <img
                     src="<?php echo esc_url($summit_web_url); ?>"
@@ -92,7 +92,7 @@ $laya_mobile_url = 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/fe
 
             </a>
 
-            <a href="https://spi.whitedragontech.com/residentials/laya-by-shang-properties/" class="project-card" id="shangLayaCard" target="_blank">
+            <a href="https://shangproperties.com/residentials/laya-by-shang-properties/" class="project-card" id="shangLayaCard" target="_blank">
 
                 <img
                     src="<?php echo esc_url($laya_web_url); ?>"

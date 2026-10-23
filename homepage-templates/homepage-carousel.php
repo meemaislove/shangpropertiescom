@@ -6,7 +6,7 @@ $carousel_items = [
 
         'youtube_url' => 'https://www.youtube.com/watch?v=Wc8TrkPBjNQ',
 
-        'thumbnail_url' => 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/shang-properties-unveiled.png',
+        'thumbnail_url' => 'http://shangproperties.com/wp-content/uploads/2026/04/shang-properties-unveiled.png',
 
         'sub_text' => 'Shang Properties Unveiled'
 
@@ -16,7 +16,7 @@ $carousel_items = [
 
         'youtube_url' => 'https://www.youtube.com/watch?v=Q2ajgZqKXmQ',
 
-        'thumbnail_url' => 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/brian-of-aurelia-residence.png',
+        'thumbnail_url' => 'http://shangproperties.com/wp-content/uploads/2026/04/brian-of-aurelia-residence.png',
 
         'sub_text' => 'With Conceptual Architect Brian Lee. Partner, Skidmore Owings & Merrill, LLP'
 
@@ -26,7 +26,7 @@ $carousel_items = [
 
         'youtube_url' => 'https://www.youtube.com/watch?v=39Ca1oJJKgY&t=1s',
 
-        'thumbnail_url' => 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/with-francesca-muzio.png',
+        'thumbnail_url' => 'http://shangproperties.com/wp-content/uploads/2026/04/with-francesca-muzio.png',
 
         'sub_text' => 'With Designer Francesca Muzio. Founder and CEO, FM Architettura D’Interni'
 
@@ -36,7 +36,7 @@ $carousel_items = [
 
         'youtube_url' => 'https://www.youtube.com/watch?v=ntH7YoJQg8g',
 
-        'thumbnail_url' => 'http://spi.whitedragontech.com/wp-content/uploads/2026/04/bea-valdes-designer.png',
+        'thumbnail_url' => 'http://shangproperties.com/wp-content/uploads/2026/04/bea-valdes-designer.png',
 
         'sub_text' => 'Bea Valdes, Designer'
 
@@ -68,7 +68,7 @@ $carousel_items = [
 
                 <div class="carousel-cell">
 
-                    <img class="play-button" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/play-button.png" alt="play-button">
+                    <img class="play-button" src="http://shangproperties.com/wp-content/uploads/2026/04/play-button.png" alt="play-button">
 
  
                     <?php

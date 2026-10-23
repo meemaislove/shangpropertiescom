@@ -15,7 +15,7 @@
     <link
         rel="preload"
         as="image"
-        href="http://spi.whitedragontech.com/wp-content/uploads/2026/04/homepage-banner-bg.png"
+        href="http://shangproperties.com/wp-content/uploads/2026/04/homepage-banner-bg.png"
         fetchpriority="high"
     >
 
@@ -26,5 +26,7 @@
 
 
 <body <?php body_class(); ?>>
+
+<?php wp_body_open(); ?>
 
 <?php include get_template_directory() . '/homepage-templates/nav-main.php'; ?>

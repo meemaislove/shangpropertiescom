@@ -4,7 +4,7 @@
 $post_id               = get_the_ID();
 $article_content_field = 'article_content';
 
-$featured_image_placeholder = 'https://spi.whitedragontech.com/wp-content/uploads/2026/07/post-featured-placeholder.png';
+$featured_image_placeholder = 'https://shangproperties.com/wp-content/uploads/2026/07/post-featured-placeholder.png';
 
 /**
  * Calculate the article reading time from the ACF Text Content layouts.
@@ -214,7 +214,7 @@ $formatted_date = $format_article_date(
                 rel="noopener"
             >
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-fb.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-fb.png"
                     alt="Share on Facebook"
                 >
             </a>
@@ -226,7 +226,7 @@ $formatted_date = $format_article_date(
                 rel="noopener"
             >
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-x.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-x.png"
                     alt="Share on X"
                 >
             </a>
@@ -238,7 +238,7 @@ $formatted_date = $format_article_date(
                 rel="noopener"
             >
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-linkedin.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-linkedin.png"
                     alt="Share on LinkedIn"
                 >
             </a>
@@ -248,7 +248,7 @@ $formatted_date = $format_article_date(
                 class="socmed-icon copy-link"
             >
                 <img
-                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/sharer-icon-copy.png"
+                    src="https://shangproperties.com/wp-content/uploads/2026/06/sharer-icon-copy.png"
                     alt="Copy article link"
                 >
             </a>
@@ -425,7 +425,7 @@ $formatted_date = $format_article_date(
                                 </span>
 
                                 <img
-                                    src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/detail-dot.png"
+                                    src="https://shangproperties.com/wp-content/uploads/2026/06/detail-dot.png"
                                     alt=""
                                 >
 
@@ -463,13 +463,13 @@ $formatted_date = $format_article_date(
 
                                     <div class="arrow-icons" aria-hidden="true">
                                         <img
-                                            src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/arrow-icon.png"
+                                            src="https://shangproperties.com/wp-content/uploads/2026/05/arrow-icon.png"
                                             class="red-arrow"
                                             alt=""
                                         >
 
                                         <img
-                                            src="https://spi.whitedragontech.com/wp-content/uploads/2026/05/arrow-icon-yellow.png"
+                                            src="https://shangproperties.com/wp-content/uploads/2026/05/arrow-icon-yellow.png"
                                             class="yellow-arrow"
                                             alt=""
                                         >

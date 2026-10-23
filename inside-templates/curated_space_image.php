@@ -139,7 +139,7 @@ $has_image = !empty($image_url);
                 <div class="image-overlay">
 
                     <img
-                        src="https://spi.whitedragontech.com/wp-content/uploads/2026/06/magnify-vector.png"
+                        src="https://shangproperties.com/wp-content/uploads/2026/06/magnify-vector.png"
                         alt=""
                         class="magnify-icon"
                         aria-hidden="true"

@@ -2036,7 +2036,7 @@ section.homepage-years {
     overflow: hidden;
 
     .homepage-years-background {
-        background: url("http://spi.whitedragontech.com/wp-content/uploads/2026/04/homepage-years-bg.png");
+        background: url("http://shangproperties.com/wp-content/uploads/2026/04/homepage-years-bg.png");
 
         background-size: cover;
 
@@ -2668,7 +2668,7 @@ section.homepage-newsletter {
 
                         input {
                             &[type="checkbox"] {
-                                width: 100%;
+                                width: 16px;
 
                                 max-width: 16px;
 
@@ -2704,6 +2704,8 @@ section.homepage-newsletter {
                                     border-radius: 2px;
 
                                     border: 1px solid #81001f;
+                                    
+                                    /* border: 1px solid #fff; */
 
                                     position: relative;
 
@@ -2711,6 +2713,8 @@ section.homepage-newsletter {
                                     top: -3px;
 
                                     /* top: 2px; */
+
+
                                 }
                             }
                         }
@@ -2971,6 +2975,50 @@ div#myladom {
     form.sales--force__form .g-recaptcha {
         margin-bottom: 25px;
     }
+    
+    
+.home {
+    section.homepage-years {
+        &.wm-wrap::after {
+            right: 90px;
+        	bottom: 160px;
+        }
+    }
+}
 
+.home section.homepage-years.wm-wrap.actual-watermark.wm-top-right::after {
+  top: 20px;
+  right: 100px;
+  bottom: auto;
+  
+  @media (max-width: 1199px) {
+  	right: 75px;
+  }
+  
+  @media (max-width: 575px) {
+  	right: 40px;
+  }
+  
+}
+
+section.homepage-contact {
+  & .homepage-contact-contents {
+    & .contact-form {
+      & form {
+        @media (max-width: 767px) {
+          max-width: -moz-available;
+        }
+      }
+    }
+  }
+}
+
+
+@supports (-webkit-touch-callout: none) {
+  section.homepage-newsletter .homepage-newsletter-contents .form-main form label span input[type="checkbox"]::after {
+    content: none !important;
+    display: none !important;
+  }
+}
     
 /* homepage fixes */

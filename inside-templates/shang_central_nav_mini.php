@@ -76,7 +76,7 @@ $mini_nav_links = [
 
         'link_title' => 'About Us',
 
-        'link_url'   => 'https://spi.whitedragontech.com/residentials/shang-central/',
+        'link_url'   => 'https://shangproperties.com/residentials/shang-central/',
 
         'link_id'    => 'shangCentralMini'
 
@@ -86,7 +86,7 @@ $mini_nav_links = [
 
         'link_title' => 'Property Portfolio',
 
-        'link_url'   => 'https://spi.whitedragontech.com/residentials/shang-central/property-portfolio',
+        'link_url'   => 'https://shangproperties.com/residentials/shang-central/property-portfolio',
 
         'link_id'    => 'shangCentralPropertyPortfolioMini'
 

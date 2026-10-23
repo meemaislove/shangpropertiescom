@@ -6,9 +6,9 @@
 
             <div class="property-map">
 
-                <img src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-no-bg.png" alt="Shang Properties Map">
+                <img src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-no-bg.png" alt="Shang Properties Map">
 
-                <!-- <img src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-temporary.png" alt="Shang Properties Map"> -->
+                <!-- <img src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-temporary.png" alt="Shang Properties Map"> -->
 
             </div>
 
@@ -18,91 +18,91 @@
 
                 <div class="property-pin" id="shangSummitPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Summit Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Summit Pin">
 
                 </div>
 
                 <div class="property-pin" id="shangResidencesAtWackWackPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Residences at Wack Wack Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Residences at Wack Wack Pin">
 
                 </div>
 
                 <div class="property-pin" id="oneShangriLaPlacePin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="One Shangri-La Place Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="One Shangri-La Place Pin">
 
                 </div>
 
                 <div class="property-pin" id="shangriLaPlazaPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shangri-La Plaza Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shangri-La Plaza Pin">
 
                 </div>
 
                 <div class="property-pin" id="shangCentralPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Central Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Central Pin">
 
                 </div>
 
                 <div class="property-pin" id="theStFrancisShangriLaPlacePin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The St. Francis Shangri-La Place Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The St. Francis Shangri-La Place Pin">
 
                 </div>
 
                 <div class="property-pin" id="theRiseMakatiPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The Rise Makati Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The Rise Makati Pin">
 
                 </div>
 
                 <div class="property-pin" id="shangSalcedoPlacePin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Salcedo Place Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Salcedo Place Pin">
 
                 </div>
 
                 <div class="property-pin" id="assemblyGroundsPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Assembly Grounds Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Assembly Grounds Pin">
 
                 </div>
 
                 <div class="property-pin" id="theEnterpriseCenterPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The Enterprise Center Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The Enterprise Center Pin">
 
                 </div>
 
                 <div class="property-pin" id="theShangGrandTowerPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The Shang Grand Tower Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="The Shang Grand Tower Pin">
 
                 </div>
 
                 <div class="property-pin" id="horizonHomesPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Horizon Homes Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Horizon Homes Pin">
 
                 </div>
 
                 <div class="property-pin" id="aureliaResidencesPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Aurelia Residences Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Aurelia Residences Pin">
 
                 </div>
 
                 <div class="property-pin" id="shangSummitPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Summit Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Summit Pin">
 
                 </div>
 
                 <div class="property-pin" id="shangBauhiniaResidencesPin">
 
-                    <img class="property-pin" src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Bauhinia Residences Pin">
+                    <img class="property-pin" src="http://shangproperties.com/wp-content/uploads/2026/04/property-map-pin.png" alt="Shang Bauhinia Residences Pin">
 
                 </div>
 

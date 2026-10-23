@@ -76,7 +76,7 @@ $mini_nav_links = [
 
         'link_title' => 'About Us',
 
-        'link_url'   => 'http://spi.whitedragontech.com/offices/the-enterprise-center/',
+        'link_url'   => 'http://shangproperties.com/offices/the-enterprise-center/',
 
         'link_id'    => 'enterpriseCenterMini'
 
@@ -86,7 +86,7 @@ $mini_nav_links = [
 
         'link_title' => 'Leasing Services',
 
-        'link_url'   => 'http://spi.whitedragontech.com/offices/the-enterprise-center/leasing-services/',
+        'link_url'   => 'http://shangproperties.com/offices/the-enterprise-center/leasing-services/',
 
         'link_id'    => 'enterpriseLeasingMini'
 
@@ -96,7 +96,7 @@ $mini_nav_links = [
 
         'link_title' => 'FAQS',
 
-        'link_url'   => 'http://spi.whitedragontech.com/offices/the-enterprise-center/faqs/',
+        'link_url'   => 'http://shangproperties.com/offices/the-enterprise-center/faqs/',
 
         'link_id'    => 'enterpriseFaqsMini'
 

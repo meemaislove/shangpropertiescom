@@ -6,10 +6,10 @@
 
             <div class="footer-logos">
 
-                <a href="https://spi.whitedragontech.com/"  rel="noopener noreferrer">
+                <a href="https://shangproperties.com/"  rel="noopener noreferrer">
 
                     <img
-                        src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/footer-shang-logo.png"
+                        src="http://shangproperties.com/wp-content/uploads/2026/04/footer-shang-logo.png"
                         alt="Shang Properties"
                     >
 
@@ -27,7 +27,7 @@
                 <a href="https://www.kuokgroup.com/"  rel="noopener noreferrer">
 
                     <img
-                        src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/shang-kuok-logo.png"
+                        src="http://shangproperties.com/wp-content/uploads/2026/04/shang-kuok-logo.png"
                         alt="Kuok Group"
                     >
 
@@ -39,31 +39,31 @@
 
                 <div class="quick-links about-us">
 
-                    <a href="https://spi.whitedragontech.com/about-us/"  class="link-title">
+                    <a href="https://shangproperties.com/about-us/"  class="link-title">
                         About Us
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/about-us/" >
+                    <a href="https://shangproperties.com/about-us/" >
                         Our Brand
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/about-us/corporate-governance/" >
+                    <a href="https://shangproperties.com/about-us/corporate-governance/" >
                         Corporate Governance
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/about-us/disclosures/" >
+                    <a href="https://shangproperties.com/about-us/disclosures/" >
                         Disclosures
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/about-us/careers/" >
+                    <a href="https://shangproperties.com/about-us/careers/" >
                         Careers
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/about-us/investors/" >
+                    <a href="https://shangproperties.com/about-us/investors/" >
                         Investors
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/about-us/kerry-foundation-phils-inc/" >
+                    <a href="https://shangproperties.com/about-us/kerry-foundation-phils-inc/" >
                         Kerry Foundation Phils, Inc.
                     </a>
 
@@ -71,27 +71,27 @@
 
                 <div class="quick-links businesses">
 
-                    <a href="https://spi.whitedragontech.com/businesses/"  class="link-title">
+                    <a href="https://shangproperties.com/businesses/"  class="link-title">
                         Businesses
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/businesses/residential/" >
+                    <a href="https://shangproperties.com/businesses/residential/" >
                         Residential
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/businesses/mall/" >
+                    <a href="https://shangproperties.com/businesses/mall/" >
                         Malls
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/businesses/office/" >
+                    <a href="https://shangproperties.com/businesses/office/" >
                         Offices
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/businesses/property-management/" >
+                    <a href="https://shangproperties.com/businesses/property-management/" >
                         Property Management
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/businesses/hospitality/" >
+                    <a href="https://shangproperties.com/businesses/hospitality/" >
                         Hospitality
                     </a>
 
@@ -99,35 +99,35 @@
 
                 <div class="quick-links curated-spaces news-updates">
 
-                    <a href="https://spi.whitedragontech.com/curated-spaces/"  class="link-title">
+                    <a href="https://shangproperties.com/curated-spaces/"  class="link-title">
                         Curated Spaces
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/curated-spaces/amenities/" >
+                    <a href="https://shangproperties.com/curated-spaces/amenities/" >
                         Amenities
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/curated-spaces/a-space-designed-for-you/" >
+                    <a href="https://shangproperties.com/curated-spaces/a-space-designed-for-you/" >
                         Lifestyle
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/curated-spaces/where-luxury-location-and-safety-meet/" >
+                    <a href="https://shangproperties.com/curated-spaces/where-luxury-location-and-safety-meet/" >
                         Security &amp; Connectivity
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/curated-spaces/spaces-for-wellness/" >
+                    <a href="https://shangproperties.com/curated-spaces/spaces-for-wellness/" >
                         Wellness
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/curated-spaces/show-suite/" >
+                    <a href="https://shangproperties.com/curated-spaces/show-suite/" >
                         Show Suite Units
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/news-updates/"  class="link-title" id="newsUpdatesFooterTitle">
+                    <a href="https://shangproperties.com/news-updates/"  class="link-title" id="newsUpdatesFooterTitle">
                         News &amp; Updates
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/blogs/" >
+                    <a href="https://shangproperties.com/blogs/" >
                         Journals
                     </a>
 
@@ -135,31 +135,31 @@
 
                 <div class="quick-links new-developments">
 
-                    <a href="https://spi.whitedragontech.com/new-developments/"  class="link-title">
+                    <a href="https://shangproperties.com/new-developments/"  class="link-title">
                         New Developments
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/residentials/shang-bauhinia-residences/" >
+                    <a href="https://shangproperties.com/residentials/shang-bauhinia-residences/" >
                         Shang Bauhinia Residences
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/residentials/shang-summit/" >
+                    <a href="https://shangproperties.com/residentials/shang-summit/" >
                         Shang Summit
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/residentials/laya-by-shang-properties/" >
+                    <a href="https://shangproperties.com/residentials/laya-by-shang-properties/" >
                         Laya by Shang Properties
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/residentials/haraya-residences/" >
+                    <a href="https://shangproperties.com/residentials/haraya-residences/" >
                         Haraya Residences
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/residentials/aurelia-residences/" >
+                    <a href="https://shangproperties.com/residentials/aurelia-residences/" >
                         Aurelia Residences
                     </a>
 
-                    <a href="https://spi.whitedragontech.com/residentials/shang-residences-at-wack-wack/" >
+                    <a href="https://shangproperties.com/residentials/shang-residences-at-wack-wack/" >
                         Shang Residences at Wack Wack
                     </a>
 
@@ -167,7 +167,7 @@
 
                 <div class="quick-links socmed-icons">
 
-                    <a href="https://spi.whitedragontech.com/contact-us/"  class="link-title">
+                    <a href="https://shangproperties.com/contact-us/"  class="link-title">
                         Connect With Us
                     </a>
 
@@ -178,7 +178,7 @@
                             <a href="https://facebook.com/ShangProperties/"  aria-label="Facebook">
 
                                 <img
-                                    src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/fb-icon.png"
+                                    src="http://shangproperties.com/wp-content/uploads/2026/04/fb-icon.png"
                                     alt="Facebook"
                                 >
 
@@ -191,7 +191,7 @@
                             <a href="https://instagram.com/shangproperties/"  aria-label="Instagram">
 
                                 <img
-                                    src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/ig-icon.png"
+                                    src="http://shangproperties.com/wp-content/uploads/2026/04/ig-icon.png"
                                     alt="Instagram"
                                 >
 
@@ -204,7 +204,7 @@
                             <a href="https://youtube.com/@shangpropertiesofficial/"  aria-label="YouTube">
 
                                 <img
-                                    src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/youtube-icon.png"
+                                    src="http://shangproperties.com/wp-content/uploads/2026/04/youtube-icon.png"
                                     alt="YouTube"
                                 >
 
@@ -217,7 +217,7 @@
                             <a href="http://linkedin.com/company/shang-properties/"  aria-label="LinkedIn">
 
                                 <img
-                                    src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/linkedin-icon.png"
+                                    src="http://shangproperties.com/wp-content/uploads/2026/04/linkedin-icon.png"
                                     alt="LinkedIn"
                                 >
 
@@ -232,7 +232,7 @@
                 <div class="quick-links dpo-seal">
 
                     <img
-                        src="http://spi.whitedragontech.com/wp-content/uploads/2026/04/shang-dpo-seal.png"
+                        src="http://shangproperties.com/wp-content/uploads/2026/04/shang-dpo-seal.png"
                         alt="National Privacy Commission Seal"
                     >
 
@@ -246,11 +246,11 @@
 
             <div class="bottom-links">
 
-                <a href="https://spi.whitedragontech.com/contact-us/" >
+                <a href="https://shangproperties.com/contact-us/" >
                     Contact Us
                 </a>
 
-                <a href="https://www.shangproperties.com/privacy-policy" >
+                <a href="https://shangproperties.com/privacy-notice" >
                     Privacy Notice
                 </a>
 
